@@ -18,5 +18,21 @@ public class Application1 {
         *  3. 필요한 위치에 상수를 호출해서 사용한다.
         *
         * */
+
+        //상수 선언  
+        final int AGE;
+        
+        //초기화
+        AGE = 20;
+        //AGE = 30;  //한 번 초기화한 이후 값을 재대입하는 것은 불가능하다.
+
+        System.out.println("AGE의 값: " + AGE);
+        System.out.println("AGE의 2배 : " + (AGE * 2));
+
+        int sum = AGE;      //대입 연산자의 오른편에는 기술 가능하다.
+        //AGE = AGE + 10;   // 대입 연산자의 왼쪽편에는 기술 불가능하다.
+
+
+
     }
 }
